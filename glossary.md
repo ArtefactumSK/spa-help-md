@@ -13,7 +13,7 @@ Program sám o sebe nie je konkrétny tréning v čase.
 
 
 ## Správa trénerov
-Umožňuje pridávať nových a upravovať existujúcich trénerov SPA
+Umožňuje správcovi / manažérovi SPA pridávať nových a upravovať existujúcich trénerov.
 ✏️ Úprava údajov
 📋 Priradiť / Odobrať tréningové programy
 🗑️ Odstránenie trénera => zároveň odstráni aj konto používateľa SPA
