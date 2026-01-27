@@ -12,7 +12,7 @@ Z programu sa automaticky generujú tréningové jednotky.
 Program sám o sebe nie je konkrétny tréning v čase.
 
 
-## Správa trénerov
+## Manažér
 Umožňuje správcovi / manažérovi SPA pridávať nových a upravovať existujúcich trénerov.
 ✏️ Úprava údajov o trénerovi (kontaktné údaje)
 📋 Priradiť / Odobrať tréningové programy
