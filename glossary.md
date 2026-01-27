@@ -15,9 +15,9 @@ Program sám o sebe nie je konkrétny tréning v čase.
 Tréner je osoba zodpovedná za vedenie tréningových jednotiek.
 Je viazaný na jeden alebo viac programov.
 Dochádzka sa zaznamenáva vo vzťahu tréner – tréningová jednotka – dieťa.
-- ✏️ Úprava údajov
-- 📋 Priradiť / Odobrať tréningové programy
-- 🗑️ Odstránenie trénera => zároveň odstráni aj konto používateľa SPA
+✏️ Úprava údajov
+📋 Priradiť / Odobrať tréningové programy
+🗑️ Odstránenie trénera => zároveň odstráni aj konto používateľa SPA
 
 ## Klient
 Klient je osoba, ktorá využíva služby akadémie.
