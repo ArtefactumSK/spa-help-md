@@ -14,13 +14,14 @@ Program sám o sebe nie je konkrétny tréning v čase.
 
 ## Správa trénerov
 Umožňuje správcovi / manažérovi SPA pridávať nových a upravovať existujúcich trénerov.
-✏️ Úprava údajov
+✏️ Úprava údajov o trénerovi (kontaktné údaje)
 📋 Priradiť / Odobrať tréningové programy
 🗑️ Odstránenie trénera => zároveň odstráni aj konto používateľa SPA
 
 ## Tréner
 Tréner je osoba zodpovedná za vedenie tréningových jednotiek.
 Je viazaný na jeden alebo viac programov.
+✏️ Úprava svojich údajov (kontaktné údaje, zmena heslas)
 Dochádzka sa zaznamenáva vo vzťahu tréner – tréningová jednotka – dieťa.
 
 ## Klient
