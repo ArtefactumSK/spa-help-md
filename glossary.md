@@ -11,7 +11,7 @@ Program definuje tréningové pravidlo, trénera, kapacitu a cieľovú skupinu.
 Z programu sa automaticky generujú tréningové jednotky.
 Program sám o sebe nie je konkrétny tréning v čase.
 
-## Tréner
+## 👟 Tréner
 Tréner je osoba zodpovedná za vedenie tréningových jednotiek.
 Je viazaný na jeden alebo viac programov.
 Dochádzka sa zaznamenáva vo vzťahu tréner – tréningová jednotka – dieťa.
