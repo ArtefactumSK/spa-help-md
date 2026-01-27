@@ -11,13 +11,17 @@ Program definuje tréningové pravidlo, trénera, kapacitu a cieľovú skupinu.
 Z programu sa automaticky generujú tréningové jednotky.
 Program sám o sebe nie je konkrétny tréning v čase.
 
-## Tréner 👟 
-Tréner je osoba zodpovedná za vedenie tréningových jednotiek.
-Je viazaný na jeden alebo viac programov.
-Dochádzka sa zaznamenáva vo vzťahu tréner – tréningová jednotka – dieťa.
+
+## Správa trénerov
+Umožňuje pridávať nových a upravovať existujúcich trénerov SPA
 ✏️ Úprava údajov
 📋 Priradiť / Odobrať tréningové programy
 🗑️ Odstránenie trénera => zároveň odstráni aj konto používateľa SPA
+
+## Tréner
+Tréner je osoba zodpovedná za vedenie tréningových jednotiek.
+Je viazaný na jeden alebo viac programov.
+Dochádzka sa zaznamenáva vo vzťahu tréner – tréningová jednotka – dieťa.
 
 ## Klient
 Klient je osoba, ktorá využíva služby akadémie.
