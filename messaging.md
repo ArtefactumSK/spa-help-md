@@ -14,10 +14,7 @@ tréning programu {program_title} sa dnes koná o {training_time}.
 
 ### Syntax premenných
 
-Premenné zapisujte v zložených zátvorkách:
-
-{variable_name}
-
+Premenné zapisujte v zložených zátvorkách: {nazov_premennej}
 Príklady: {parent_first_name} , {child_first_name} , {program_title}
 
 
@@ -55,6 +52,6 @@ Tešíme sa na vás.
 
 {site_name}
 
----
+* * *
 
 Systém pri odoslaní správy automaticky nahradí všetky premenné konkrétnymi údajmi príjemcu.
