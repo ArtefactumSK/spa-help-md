@@ -18,71 +18,30 @@ Premenné zapisujte v zložených zátvorkách:
 
 {variable_name}
 
-Príklady:
-
-{parent_first_name}  
-{child_first_name}  
-{program_title}
-
-Starší zápis s dvojitými zátvorkami je stále podporovaný:
-
-{{parent_first_name}}
-
-Odporúčame používať nový zápis s **jednou sadou zátvoriek**.
+Príklady: {parent_first_name} , {child_first_name} , {program_title}
 
 
-
-## Dostupné premenné
+### Dostupné premenné
 
 ### Rodič
-
-{parent_name} – celé meno rodiča  
-{parent_first_name} – krstné meno rodiča  
-{parent_last_name} – priezvisko rodiča  
-{parent_email} – email rodiča  
-
----
+{parent_name} – celé meno rodiča, {parent_first_name} – krstné meno rodiča, {parent_last_name} – priezvisko rodiča, {parent_email} – email rodiča  
 
 ### Dieťa
-
-{child_name} – celé meno dieťaťa  
-{child_first_name} – krstné meno dieťaťa  
-{child_last_name} – priezvisko dieťaťa  
-
----
+{child_name} – celé meno dieťaťa, {child_first_name} – krstné meno dieťaťa, {child_last_name} – priezvisko dieťaťa  
 
 ### Program a registrácia
-
-{program_title} – názov programu  
-{registration_id} – interné ID registrácie  
-
----
+{program_title} – názov programu, {registration_id} – interné ID registrácie  
 
 ### Tréning
-
-{trainer_name} – meno trénera  
-{training_date} – dátum tréningu  
-{training_time} – čas tréningu  
-{place_name} – miesto tréningu  
-
----
+{trainer_name} – meno trénera, {training_date} – dátum tréningu, {training_time} – čas tréningu, {place_name} – miesto tréningu  
 
 ### Platba
-
-{payment_amount} – suma platby  
-{payment_due_date} – dátum splatnosti  
-{vs} – variabilný symbol  
-
----
+{payment_amount} – suma platby, {payment_due_date} – dátum splatnosti, {vs} – variabilný symbol,
 
 ### Systém
+{site_name} – názov webu / akadémie, {site_url} – adresa webu  
 
-{site_name} – názov webu / akadémie  
-{site_url} – adresa webu  
-
----
-
-## Príklad správy
+### Príklad správy
 
 Dobrý deň {parent_first_name},
 
