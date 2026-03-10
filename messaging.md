@@ -2,70 +2,100 @@
 
 ## Premenné
 
-Pri tvorbe správ (email aj interné správy v SPA portáli) môžete použiť premenné,
-ktoré sa pri odoslaní automaticky nahradia reálnymi údajmi o používateľovi,
-registrácii, programe alebo platbe.
+Pri vytváraní správy môžete použiť **premenné systému**.  
+Pri odoslaní správy systém automaticky nahradí premenné skutočnými údajmi o príjemcovi, programe alebo tréningu.
 
-Premenné môžete zapisovať dvoma spôsobmi:
+Príklad:
 
-- `"{parent_first_name}"` – nový preferovaný zápis
-- `"{{parent_first_name}}"` – pôvodný zápis, stále podporovaný kvôli spätnej kompatibilite
+Dobrý deň {parent_first_name},  
+tréning programu {program_title} sa dnes koná o {training_time}.
 
-Odporúčame používať nový zápis s jednou sadou zložených zátvoriek (`{variable}`).
+---
 
-### Osobné údaje – rodič a dieťa
+### Syntax premenných
 
-- **`{parent_name}`** – celé meno rodiča (ak je k dispozícii)
-- **`{child_name}`** – celé meno dieťaťa (klienta)
-- **`{parent_first_name}`** – krstné meno rodiča
-- **`{parent_last_name}`** – priezvisko rodiča
-- **`{child_first_name}`** – krstné meno dieťaťa
-- **`{child_last_name}`** – priezvisko dieťaťa
-- **`{parent_email}`** – email rodiča použitý pri registrácii
+Premenné zapisujte v zložených zátvorkách:
 
-### Registrácia a program
+{variable_name}
 
-- **`{registration_id}`** – interné ID registrácie
-- **`{program_title}`** – názov programu (napr. „Karate Malacky – začiatočníci“)
+Príklady:
 
-### Tréning a miesto
+{parent_first_name}  
+{child_first_name}  
+{program_title}
 
-- **`{trainer_name}`** – meno trénera (ak je dostupné v kontexte)
-- **`{training_date}`** – dátum tréningu (napr. „12.3.2026“)
-- **`{training_time}`** – čas tréningu (od–do, napr. „17:00 – 18:00“)
-- **`{place_name}`** – názov miesta tréningu (telocvičňa, hala a pod.)
+Starší zápis s dvojitými zátvorkami je stále podporovaný:
 
-### Platby
+{{parent_first_name}}
 
-- **`{payment_amount}`** – suma platby (napr. „59 €“)
-- **`{payment_due_date}`** – dátum splatnosti platby
-- **`{vs}`** – variabilný symbol platby (VS)
+Odporúčame používať nový zápis s **jednou sadou zátvoriek**.
 
-### Systémové údaje
+---
 
-- **`{site_name}`** – názov webu / akadémie
-- **`{site_url}`** – URL webu
+## Dostupné premenné
 
-## Príklady použitia
+### Rodič
 
-### Príklad predmetu správy
+{parent_name} – celé meno rodiča  
+{parent_first_name} – krstné meno rodiča  
+{parent_last_name} – priezvisko rodiča  
+{parent_email} – email rodiča  
 
-```text
-{program_title} – dôležité upozornenie pre rodičov
-```
+---
 
-### Príklad textu emailu
+### Dieťa
 
-```text
+{child_name} – celé meno dieťaťa  
+{child_first_name} – krstné meno dieťaťa  
+{child_last_name} – priezvisko dieťaťa  
+
+---
+
+### Program a registrácia
+
+{program_title} – názov programu  
+{registration_id} – interné ID registrácie  
+
+---
+
+### Tréning
+
+{trainer_name} – meno trénera  
+{training_date} – dátum tréningu  
+{training_time} – čas tréningu  
+{place_name} – miesto tréningu  
+
+---
+
+### Platba
+
+{payment_amount} – suma platby  
+{payment_due_date} – dátum splatnosti  
+{vs} – variabilný symbol  
+
+---
+
+### Systém
+
+{site_name} – názov webu / akadémie  
+{site_url} – adresa webu  
+
+---
+
+## Príklad správy
+
 Dobrý deň {parent_first_name},
 
-tréning programu {program_title}, ktorý sa koná dňa {training_date} v čase {training_time}
-na mieste {place_name}, je dnes z organizačných dôvodov zrušený.
+tréning programu **{program_title}** sa bude konať:
 
-Ďakujeme za pochopenie.
-Tím {site_name}
-```
+dátum: {training_date}  
+čas: {training_time}  
+miesto: {place_name}
 
-Pri odoslaní správy systém automaticky doplní konkrétne údaje za každú premennú,
-tak aby rodič či klient dostal personalizovanú a zrozumiteľnú informáciu.
+Tešíme sa na vás.
 
+{site_name}
+
+---
+
+Systém pri odoslaní správy automaticky nahradí všetky premenné konkrétnymi údajmi príjemcu.
