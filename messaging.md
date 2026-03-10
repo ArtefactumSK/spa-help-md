@@ -10,7 +10,7 @@ Príklad:
 Dobrý deň {parent_first_name},  
 tréning programu {program_title} sa dnes koná o {training_time}.
 
----
+
 
 ### Syntax premenných
 
@@ -30,7 +30,7 @@ Starší zápis s dvojitými zátvorkami je stále podporovaný:
 
 Odporúčame používať nový zápis s **jednou sadou zátvoriek**.
 
----
+
 
 ## Dostupné premenné
 
