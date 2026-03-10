@@ -21,7 +21,7 @@ Premenné zapisujte v zložených zátvorkách:
 Príklady: {parent_first_name} , {child_first_name} , {program_title}
 
 
-### Dostupné premenné
+#### Dostupné premenné
 
 ### Rodič
 {parent_name} – celé meno rodiča, {parent_first_name} – krstné meno rodiča, {parent_last_name} – priezvisko rodiča, {parent_email} – email rodiča  
