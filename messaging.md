@@ -52,6 +52,6 @@ Tešíme sa na vás.
 
 {site_name}
 
-* * *
+* * * * * *
 
 Systém pri odoslaní správy automaticky nahradí všetky premenné konkrétnymi údajmi príjemcu.
