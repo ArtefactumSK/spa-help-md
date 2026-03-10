@@ -26,11 +26,14 @@ Príklady: {parent_first_name} , {child_first_name} , {program_title}
 ### Dieťa
 {child_name} – celé meno dieťaťa, {child_first_name} – krstné meno dieťaťa, {child_last_name} – priezvisko dieťaťa  
 
+### Dospelý účastník (spa_client)
+{client_name} – celé meno dospelého účastníka, {client_first_name} – krstné meno dospelého účastníka, {client_last_name} – priezvisko dospelého účastníka, {client_email} – email dospelého účastníka  
+
 ### Program a registrácia
 {program_title} – názov programu, {registration_id} – interné ID registrácie  
 
 ### Tréning
-{trainer_name} – meno trénera, {training_date} – dátum tréningu, {training_time} – čas tréningu, {place_name} – miesto tréningu  
+{trainer_name} – meno trénera, {trainer_first_name} – krstné meno trénera, {trainer_last_name} – priezvisko trénera, {training_date} – dátum tréningu, {training_time} – čas tréningu, {place_name} – miesto tréningu  
 
 ### Platba
 {payment_amount} – suma platby, {payment_due_date} – dátum splatnosti, {vs} – variabilný symbol,
