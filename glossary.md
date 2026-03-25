@@ -22,7 +22,7 @@ Umožňuje správcovi / manažérovi SPA pridávať nových a upravovať existuj
 Tréner je osoba zodpovedná za vedenie tréningových jednotiek.
 🤸 Je viazaný na jeden alebo viac programov.
 ✏️ Úprava svojich údajov (kontaktné údaje, zmena hesla)
-✅ Dochádzka sa zaznamenáva vo vzťahu tréner – tréningová jednotka – dieťa.
+✅ Dochádzka sa zaznamenáva vo vzťahu tréner – tréningová jednotka – účastník.
 
 ## Klient
 Klient je osoba, ktorá využíva služby akadémie.
