@@ -19,11 +19,11 @@ Umožňuje správcovi / manažérovi SPA pridávať nových a upravovať existuj
 🗑️ Odstránenie trénera => zároveň odstráni aj konto používateľa SPA
 
 ## Tréner
-Tréner je osoba zodpovedná za vedenie tréningových jednotiek.
-🤸 Je viazaný na jeden alebo viac programov.
-✏️ Úprava svojich údajov (kontaktné údaje, zmena hesla)
+👟 Tréner je osoba zodpovedná za vedenie tréningov.
+🤸 Je viazaný na jeden alebo viac tréningových programov.
+✏️ Je registrovaný manažérom, ale svoje údaje si upravuje sám (kontaktné údaje, zmena hesla)
 ✅ Dochádzka sa zaznamenáva vo vzťahu tréner – tréningová jednotka – účastník. 
-🕘 Dochádzku a hodnotenie tréningu účastníka môže tréner upravovať max 3 dni nazad
+🕘 Dochádzku a hodnotenie tréningu účastníka môže tréner upravovať max 3 dni nazad.
 
 ## Klient
 Klient je osoba, ktorá využíva služby akadémie.
