@@ -41,6 +41,13 @@ Príklady: {parent_first_name} , {child_first_name} , {program_title}
 ### Systém
 {site_name} – názov webu / akadémie, {site_url} – adresa webu  
 
+#### Zmena hesla
+{user_first_name} – meno používateľa, {user_email} – prihlasovací email  
+{reset_password_wp_url} – štandardný WordPress odkaz na vytvorenie nového hesla (`wp-login.php` s `action=rp`), doplnené o `wp_lang` podľa jazyka používateľa / webu; používa sa v emailovej šablóne pri zmene hesla  
+
+#### Zmena PIN (dieťa)
+{child_first_name} – meno dieťaťa, {child_last_name} – priezvisko dieťaťa, {child_pin} – nový PIN kód  
+
 ### Príklad správy
 
 Dobrý deň {parent_first_name},
